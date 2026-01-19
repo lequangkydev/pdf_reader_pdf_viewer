@@ -96,18 +96,7 @@ class _CommonTabBarState extends State<CommonTabBar> {
                       key: ValueKey(state),
                       height: 140,
                       decoration: BoxDecoration(
-                        color: state == TabBarType.all
-                            ? Colors.white
-                            : Colors.transparent,
-                        gradient: state == TabBarType.all
-                            ? null
-                            : state.backgroundGradient,
-                        image: state == TabBarType.all
-                            ? null
-                            : DecorationImage(
-                                image: state.backgroundImage.provider(),
-                                fit: BoxFit.fill,
-                              ),
+                        gradient: state.backgroundGradient,
                       ),
                     ),
                   ),
