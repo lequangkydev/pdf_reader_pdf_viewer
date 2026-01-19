@@ -125,7 +125,6 @@ class MyPurchasesManager extends PurchasesManager {
   @override
   Future<void> handlePurchaseError(PurchaseDetails purchaseDetails) async {
     hideLoading();
-    logger.e(purchaseDetails.error?.details);
     await showDialog(
       context: getIt<AppRouter>().navigatorKey.currentContext!,
       builder: (BuildContext ctx) {

@@ -24,11 +24,7 @@ dependencies:
   device_info_plus:
   dropdown_button2: ^2.3.9
 
-  # EEE
-  flutter_ads:
-    git:
-      url: https://tinhvv_vtn:ATBBvpGJEjJVKKzFyhSLTVxAwPueD7D28D74@bitbucket.org/innofyapp/flutter_ads.git
-      ref: app/365_v3.1
+
   # FFF
   firebase_core: ^3.3.0
   firebase_remote_config: ^5.0.4
@@ -42,7 +38,15 @@ dependencies:
   flutter_easyloading: ^3.0.5
   flutter_iap:
     git:
-      url: https://tinhvv_vtn:ATBBvpGJEjJVKKzFyhSLTVxAwPueD7D28D74@bitbucket.org/innofyapp/flutter_iap.git
+      url: https://x-token-auth:ATCTT3xFfGN0DiswFD0uH2-YqG18Su3vQW19WdESXPdmzjGdcqX_T4WzjZf3qu8eztJDOOUTNeLdtzonxXFM2WOUvQQms1sqguEdS6u41D6qPpVaaXsveQlH4a648XKnXuFLf2nfCvfqGq89g73xDcKoR1E4wUP6GF42zVcn-0_gHcgGzZzZQbs=518954B2@bitbucket.org/innofyapp/flutter_iap.git
+      ref: version/1.2.2
+  flutter_ads:
+    git:
+      url: https://x-token-auth:ATCTT3xFfGN07e4k-OChWV1tX33bFsgTMvRA0stzGmtseFhDmM5nDHyAbzxT_4Ms7tal7WZyYqTqmY7YHSGKzI76vIAxq-v7IJ5ra8N75Ly4IbZgrRK6PSD4IsKi9eifSLkNUH-MNrxJQj2VTf_0O9JXIfMLgDtx_LVCvNQ6Vr9jaNhGHDLW5UY=7A4576D6@bitbucket.org/innofyapp/flutter_ads.git
+      ref: app/365_v3.1
+  flutter_adjust:
+    git:
+      url: https://x-token-auth:ATCTT3xFfGN03-pM3pLVRE64pUKs-5mhQ5cySlh2VvTX0HjWqRO8E_tFCBaKWCzuI9lMOd-2kRnB28Kw9_C0tmZ9vHrybHLYOyfXc-Y08RkXJYddJ382gCWGO38X9fl-coFKd1OWXq-kyyKD-WnBQDC07hIcdP1On59FCdYyOpEkPu-Khl7FdWQ=D1ECA5D6@bitbucket.org/innofyapp/flutter-adjust.git
       ref: version/1.1.0
   # GGG
   get_it: ^7.6.7

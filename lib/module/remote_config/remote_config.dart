@@ -41,6 +41,7 @@ class RemoteConfigManager {
   AdjustConfig get adjustConfig => _adjustConfig;
 
   bool get enableAllAds {
+    return false;
     // if (purchasesManager.isPremium) {
     //   return false;
     // }
