@@ -17,7 +17,7 @@ flavors:
     app:
       name: "PDF Reader - PDF Viewer"
     android:
-      applicationId: "com.office.document.file.viewer"
+      applicationId: "com.pdf.reader.viewer.scanner"
       icon: "assets/images/logo/rounded_logo.png"
       firebase:
         config: "android/app/src/prod/google-services.json"

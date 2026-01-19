@@ -9,7 +9,7 @@ android {
         }
         prod {
             dimension "flavor-type"
-            applicationId "com.office.document.file.viewer"
+            applicationId "com.pdf.reader.viewer.scanner"
             resValue "string", "app_name", "PDF Reader - PDF Viewer"
         }
     }
