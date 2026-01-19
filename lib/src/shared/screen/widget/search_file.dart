@@ -5,27 +5,22 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 
 import '../../../config/navigation/app_router.dart';
 import '../../../gen/assets.gen.dart';
-import '../../constants/app_colors.dart';
 import '../../cubit/shell_document_tab_cubit.dart';
 import '../../enum/app_enum.dart';
 import '../../widgets/bottom_sheet/sort_bottom_sheet.dart';
 
-class SearchFile extends StatefulWidget {
-  const SearchFile({super.key, this.padding});
+class SearchFile extends StatelessWidget {
+  const SearchFile({super.key, this.padding, this.isMoreScreen = false});
 
   final EdgeInsets? padding;
+  final bool isMoreScreen;
 
-  @override
-  State<SearchFile> createState() => _SearchFileState();
-}
-
-class _SearchFileState extends State<SearchFile> {
   @override
   Widget build(BuildContext context) {
     return BlocBuilder<ShellDocumentTabCubit, TabBarType>(
       builder: (context, state) {
         return Padding(
-          padding: widget.padding ??
+          padding: padding ??
               const EdgeInsets.symmetric(vertical: 4, horizontal: 16),
           child: Row(
             children: [
@@ -35,31 +30,24 @@ class _SearchFileState extends State<SearchFile> {
                     text: 'PDF ',
                     style: const TextStyle(
                       color: Colors.black,
-                      fontSize: 20,
-                      fontWeight: FontWeight.w600,
+                      fontSize: 24,
+                      fontWeight: FontWeight.w800,
                     ),
                     children: [
                       TextSpan(
                         text: 'Reader',
                         style: TextStyle(
-                          fontWeight: FontWeight.w600,
+                          fontWeight: FontWeight.w800,
                           color: state.valueColor,
-                          fontSize: 20,
+                          fontSize: 24,
                         ),
                       ),
                     ],
                   ),
                 ),
               ),
-              Container(
-                padding:
-                    const EdgeInsets.symmetric(horizontal: 16, vertical: 12),
-                decoration: BoxDecoration(
-                  color: Colors.white,
-                  borderRadius: BorderRadius.circular(40),
-                  border: Border.all(color: AppColors.f2f2),
-                ),
-                child: Row(
+              if (!isMoreScreen)
+                Row(
                   children: [
                     GestureDetector(
                         onTap: () =>
@@ -83,8 +71,7 @@ class _SearchFileState extends State<SearchFile> {
                       child: Assets.icons.icAllList.svg(),
                     ),
                   ],
-                ),
-              )
+                )
             ],
           ),
         );

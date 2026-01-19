@@ -9,14 +9,14 @@ class DocumentToolModel {
 }
 
 enum DocumentToolItem {
+  merge,
+  split,
+  imageToPdf,
+  lock,
+  unlock,
   scan,
   toImage,
   toLongImage,
-  merge,
-  split,
-  unlock,
-  lock,
-  imageToPdf,
 }
 
 extension DocumentToolItemExt on DocumentToolItem {

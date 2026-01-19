@@ -142,21 +142,22 @@ class _CommonTabBarState extends State<CommonTabBar> {
                                     fontStyle: FontStyle.normal,
                                   ),
                                   labelPadding: EdgeInsets.zero,
-                                  indicatorColor: Colors.transparent,
+                                  indicatorColor: selectedTab.valueColor,
                                   tabs: widget.tabs.asMap().entries.map(
                                     (entry) {
                                       final isSelected =
                                           entry.key == selectedIndex;
 
                                       return Tab(
-                                        height: 30,
+                                        height: 36,
                                         child: Container(
                                           alignment: Alignment.center,
+                                          padding: const EdgeInsets.symmetric(
+                                              horizontal: 12),
                                           decoration: BoxDecoration(
-                                            borderRadius:
-                                                BorderRadius.circular(45),
-                                            color: isSelected
-                                                ? entry.value.tabBarType.colorBg
+                                            gradient: isSelected
+                                                ? entry.value.tabBarType
+                                                    .gradientTab
                                                 : null,
                                           ),
                                           child: Text(

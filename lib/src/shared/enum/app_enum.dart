@@ -82,23 +82,23 @@ enum TabBarType {
   LinearGradient get backgroundGradient {
     final colors = switch (this) {
       TabBarType.all => [
-          const Color(0xffFF0100).withValues(alpha: .13),
-          const Color(0xffFF00FF).withValues(alpha: .0),
+          const Color(0xffFF0100).withValues(alpha: .25),
+          const Color(0xffe894ca).withValues(alpha: .0),
         ],
       TabBarType.pdf => [
-          const Color(0xffE52120).withValues(alpha: .15),
+          const Color(0xffE52120).withValues(alpha: .25),
           const Color(0xffE52120).withValues(alpha: .0),
         ],
       TabBarType.word => [
-          const Color(0xff2979FF).withValues(alpha: .15),
+          const Color(0xff2979FF).withValues(alpha: .25),
           const Color(0xff2979FF).withValues(alpha: .0),
         ],
       TabBarType.excel => [
-          const Color(0xff388E3C).withValues(alpha: .15),
+          const Color(0xff388E3C).withValues(alpha: .25),
           const Color(0xff388E3C).withValues(alpha: .0),
         ],
       TabBarType.ppt => [
-          const Color(0xffF2590C).withValues(alpha: .15),
+          const Color(0xffF2590C).withValues(alpha: .25),
           const Color(0xffF2590C).withValues(alpha: .0),
         ],
     };

@@ -1,7 +1,6 @@
 import 'dart:io';
 
 import 'package:auto_route/auto_route.dart';
-import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_ads/ads_flutter.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
@@ -148,7 +147,7 @@ class _MoreScreenUIState extends State<MoreScreenUI> {
                     gradient: TabBarType.pdf.backgroundGradient,
                   ),
                   child: const SafeArea(
-                    child: SearchFile(),
+                    child: SearchFile(isMoreScreen: true),
                   ),
                 ),
                 Expanded(
@@ -181,7 +180,6 @@ class _MoreScreenUIState extends State<MoreScreenUI> {
                       ),
                       12.vSpace,
                       Container(
-                        // padding: const EdgeInsets.fromLTRB(12, 12, 16, 8),
                         decoration: BoxDecoration(
                           borderRadius: BorderRadius.circular(15),
                         ),
@@ -194,8 +192,8 @@ class _MoreScreenUIState extends State<MoreScreenUI> {
                               SliverGridDelegateWithFixedCrossAxisCount(
                             crossAxisCount: 3,
                             mainAxisSpacing: 20,
-                            crossAxisSpacing: 16.h,
-                            childAspectRatio: 0.9,
+                            crossAxisSpacing: 4,
+                            childAspectRatio: 1.3,
                           ),
                           itemBuilder: (context, index) {
                             final item = DocumentToolItem.values[index];
@@ -255,7 +253,7 @@ class _MoreScreenUIState extends State<MoreScreenUI> {
                           },
                         ),
                       ),
-                      4.vSpace,
+                      10.vSpace,
                       Align(
                         alignment: Alignment.centerLeft,
                         child: Text(
@@ -346,10 +344,11 @@ class _MoreScreenUIState extends State<MoreScreenUI> {
           ),
           8.vSpace,
           Expanded(
-            child: AutoSizeText(
+            child: Text(
               title,
-              maxLines: 2,
+              maxLines: 1,
               textAlign: TextAlign.center,
+              overflow: TextOverflow.ellipsis,
               style: const TextStyle(
                 fontSize: 14,
                 fontWeight: FontWeight.w400,
