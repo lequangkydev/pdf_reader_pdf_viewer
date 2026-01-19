@@ -1,0 +1,12 @@
+class AppConstants {
+  AppConstants._();
+
+  static const String appIOSId = '123456';
+  static const String appIOSUrl = 'https://apps.apple.com/us/app/id$appIOSId';
+  static const String appAndroidUrl =
+      'https://play.google.com/store/apps/details?id=com.office.document.file.viewer';
+  static const urlPolicy = 'https://fileviewer365g.netlify.app/policy';
+  static const urlTerms = 'url';
+
+  static const appName = 'PDF Reader - PDF Viewer';
+}

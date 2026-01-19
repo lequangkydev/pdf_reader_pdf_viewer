@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">افتح الآن</string>
+    <string name="pdf">PDF</string>
+    <string name="home">الصفحة الرئيسية</string>
+    <string name="document">مستند</string>
+    <string name="recent">الأخيرة</string>
+    <string name="you_have_a_new_pdf_file">✨ لديك ملف PDF جديد!</string>
+    <string name="you_have_a_new_word_file">✨ لديك ملف Word جديد!</string>
+    <string name="you_have_a_new_excel_file">✨ لديك ملف Excel جديد!</string>
+    <string name="you_have_a_new_office_file">✨ لديك ملف Office جديد!</string>
+    <string name="you_have_a_new_file">✨ لديك ملف جديد!</string>
+    <string name="unfinished_file_detected">⚠️️ تم اكتشاف ملف غير مكتمل!</string>
+    <string name="an_unread_file_need_your_attention">ملف غير مقروء يحتاج إلى انتباهك</string>
+    <string name="you_have_a_new_photo">✨ لديك صورة جديدة!</string>
+    <string name="unread_document_file">ملف مستند غير مقروء⚠️️</string>
+    <string name="unfinished_reading_file">لا تنسَ إنهاء مستندك! اضغط للمتابعة.</string>
+    <string name="continue_reading">مواصلة القراءة: المستندات</string>
+    <string name="resume_your_reading_where_you_left_pf">استأنف القراءة من حيث توقفت</string>
+    <string name="you_have_a_new_ppt_file">" لديك ملف PowerPoint جديد!"</string>
+    <string name="all_files">جميع الملفات</string>
+    <string name="bookmark">إشارة مرجعية</string>
+    <string name="tool">أداة</string>
+</resources>

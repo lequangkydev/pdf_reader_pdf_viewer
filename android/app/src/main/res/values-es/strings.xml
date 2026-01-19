@@ -1,0 +1,23 @@
+<resources>
+    <string name="open_now">Abrir ahora</string>
+    <string name="pdf">PDF</string>
+    <string name="home">Inicio</string>
+    <string name="document">Documento</string>
+    <string name="recent">Reciente</string>
+    <string name="you_have_a_new_pdf_file">✨ ¡Tienes un nuevo archivo PDF!</string>
+    <string name="you_have_a_new_word_file">✨ ¡Tienes un nuevo archivo de Word!</string>
+    <string name="you_have_a_new_excel_file">✨ ¡Tienes un nuevo archivo de Excel!</string>
+    <string name="you_have_a_new_office_file">✨ ¡Tienes un nuevo archivo de Office!</string>
+    <string name="you_have_a_new_file">✨ ¡Tienes un nuevo archivo!</string>
+    <string name="unfinished_file_detected">⚠️️ ¡Archivo sin terminar detectado!</string>
+    <string name="an_unread_file_need_your_attention">Un archivo no leído necesita tu atención</string>
+    <string name="you_have_a_new_photo">✨ ¡Tienes una nueva foto!</string>
+    <string name="unread_document_file">⚠️️Archivo de documento no leído</string>
+    <string name="unfinished_reading_file">¡No olvides terminar tu documento! Toca para seguir leyendo.</string>
+    <string name="continue_reading">Continuar leyendo: Documentos</string>
+    <string name="resume_your_reading_where_you_left_pf">Reanuda tu lectura donde la dejaste</string>
+    <string name="you_have_a_new_ppt_file">✨ ¡Tienes un nuevo archivo de PowerPoint!</string>
+    <string name="all_files">Todos los archivos</string>
+    <string name="bookmark">Marcador</string>
+    <string name="tool">Herramienta</string>
+</resources>

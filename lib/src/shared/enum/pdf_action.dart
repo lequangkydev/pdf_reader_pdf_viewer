@@ -1,0 +1,4 @@
+enum PdfActionEnum {
+  rename,
+  delete,
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">अभी खोलें</string>
+    <string name="pdf">PDF</string>
+    <string name="home">होम</string>
+    <string name="document">दस्तावेज़</string>
+    <string name="recent">हाल का</string>
+    <string name="you_have_a_new_pdf_file">✨ आपके पास एक नई PDF फ़ाइल है!</string>
+    <string name="you_have_a_new_word_file">✨ आपके पास एक नई Word फ़ाइल है!</string>
+    <string name="you_have_a_new_excel_file">✨ आपके पास एक नई Excel फ़ाइल है!</string>
+    <string name="you_have_a_new_office_file">✨ आपके पास एक नई Office फ़ाइल है!</string>
+    <string name="you_have_a_new_file">✨ आपके पास एक नई फ़ाइल है!</string>
+    <string name="unfinished_file_detected">⚠️️ अधूरी फ़ाइल का पता चला!</string>
+    <string name="an_unread_file_need_your_attention">एक अपठित फ़ाइल को आपके ध्यान की आवश्यकता है</string>
+    <string name="you_have_a_new_photo">✨ आपके पास एक नई तस्वीर है!</string>
+    <string name="unread_document_file">⚠️️अपठित दस्तावेज़ फ़ाइल</string>
+    <string name="unfinished_reading_file">अपना दस्तावेज़ पूरा करना न भूलें! पढ़ना जारी रखने के लिए टैप करें।</string>
+    <string name="continue_reading">पढ़ना जारी रखें: दस्तावेज़</string>
+    <string name="resume_your_reading_where_you_left_pf">" जहाँ आपने पढ़ना छोड़ा था, वहीं से फिर से शुरू करें"</string>
+    <string name="you_have_a_new_ppt_file">✨ आपके पास एक नया PowerPoint फ़ाइल है!</string>
+    <string name="all_files">सभी फ़ाइलें</string>
+    <string name="bookmark">बुकमार्क</string>
+    <string name="tool">उपकरण</string>
+</resources>

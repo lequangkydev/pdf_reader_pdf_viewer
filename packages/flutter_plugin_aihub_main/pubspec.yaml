@@ -1,0 +1,37 @@
+name: flutter_plugin_aihub
+description: "A new Flutter plugin project."
+version: 0.0.1
+homepage: "https://flutter.dev"
+
+environment:
+  sdk: ^3.8.0
+  flutter: ">=3.3.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  plugin_platform_interface: ^2.0.2
+  http: ^1.5.0
+  retrofit_generator:
+  freezed_annotation:
+  json_annotation:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  build_runner:
+  json_serializable:
+  freezed:
+
+flutter:
+
+  plugin:
+    platforms:
+      android:
+        package: com.aihub.code12.sdk.flutter_plugin_aihub
+        pluginClass: FlutterPluginAihubPlugin
+      ios:
+        pluginClass: FlutterPluginAihubPlugin
+
+

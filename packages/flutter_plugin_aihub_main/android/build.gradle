@@ -1,0 +1,118 @@
+plugins {
+    id "com.android.library" 
+    // version "8.13.0"
+    id "org.jetbrains.kotlin.android" 
+    // version "1.9.25"
+    id 'maven-publish'
+}
+
+
+android {
+    namespace "com.aihub.code12.sdk.flutter_plugin_aihub"
+    compileSdkVersion = 35
+
+    defaultConfig {
+        minSdk = 23
+    }
+
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
+    }
+
+    kotlinOptions {
+        jvmTarget = "11"
+    }
+
+    sourceSets {
+        main.java.srcDirs += "src/main/kotlin"
+        test.java.srcDirs += "src/test/kotlin"
+    }
+
+    testOptions {
+        unitTests.all {
+            useJUnitPlatform()
+            testLogging {
+                events "passed", "skipped", "failed", "standardOut", "standardError"
+                outputs.upToDateWhen { false }
+                showStandardStreams = true
+            }
+        }
+    }
+}
+
+
+publishing {
+    publications {
+        release(MavenPublication) {
+            groupId = "com.aihub"
+            artifactId = "lib-release"
+            version = "1.0.0"
+
+            // chỉ định file aar + pom có sẵn
+            artifact("$projectDir/maven-artifacts/lib-release-1.0.0.aar")
+
+           pom {
+                name.set("AIHub Lib Release")
+                description.set("AIHub Android SDK packaged as AAR")
+                url.set("https://aihub.com/sdk")
+
+                licenses {
+                    license {
+                        name.set("MIT License")
+                        url.set("https://opensource.org/licenses/MIT")
+                        distribution.set("repo")
+                    }
+                }
+
+                developers {
+                    developer {
+                        id.set("aihub")
+                        name.set("AIHub Team")
+                        email.set("support@aihub.com")
+                    }
+                }
+
+                scm {
+                    connection.set("scm:git:https://github.com/aihub/flutter_plugin_aihub.git")
+                    developerConnection.set("scm:git:ssh://github.com:aihub/flutter_plugin_aihub.git")
+                    url.set("https://github.com/aihub/flutter_plugin_aihub")
+                }
+            }
+        }
+    }
+    repositories {
+        mavenLocal()
+    }
+}
+
+// allprojects {
+//     repositories {
+//         mavenLocal()
+//         google()
+//         mavenCentral()
+//     }
+// }
+
+dependencies {
+    implementation "com.aihub:lib-release:1.0.0"
+    implementation("io.coil-kt:coil-compose:2.4.0")
+    implementation("com.squareup.retrofit2:retrofit:2.11.0")
+    implementation("com.squareup.retrofit2:converter-gson:2.11.0")
+    implementation("com.squareup.okhttp3:okhttp:4.12.0")
+    implementation("com.squareup.okhttp3:logging-interceptor:4.12.0")
+    implementation("org.jetbrains.kotlinx:kotlinx-coroutines-android:1.7.3")
+
+
+      // Kotlin stdlib cho runtime
+    implementation "org.jetbrains.kotlin:kotlin-stdlib:1.9.25"
+
+    // Annotation cơ bản
+    implementation "androidx.annotation:annotation:1.9.0"
+
+    // Quan trọng: Flutter Android embedding (chứa io.flutter.*)
+    // implementation "io.flutter:flutter_embedding_debug:1.0.0"
+
+    testImplementation("org.jetbrains.kotlin:kotlin-test")
+    testImplementation("org.mockito:mockito-core:5.0.0")
+}

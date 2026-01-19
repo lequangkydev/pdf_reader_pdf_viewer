@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">Открыть сейчас</string>
+    <string name="pdf">PDF</string>
+    <string name="home">Главная</string>
+    <string name="document">Документ</string>
+    <string name="recent">Недавние</string>
+    <string name="you_have_a_new_pdf_file">✨ У вас новый PDF файл!</string>
+    <string name="you_have_a_new_word_file">✨ У вас новый файл Word!</string>
+    <string name="you_have_a_new_excel_file">✨ У вас новый файл Excel!</string>
+    <string name="you_have_a_new_office_file">✨ У вас новый файл Office!</string>
+    <string name="you_have_a_new_file">✨ У вас новый файл!</string>
+    <string name="unfinished_file_detected">⚠️️ Обнаружен незавершенный файл!</string>
+    <string name="an_unread_file_need_your_attention">Необходимо ваше внимание к непрочитанному файлу</string>
+    <string name="you_have_a_new_photo">✨ У вас новое фото!</string>
+    <string name="unread_document_file">⚠️️Непрочитанный файл документа</string>
+    <string name="unfinished_reading_file">Не забудьте закончить свой документ! Нажмите, чтобы продолжить чтение.</string>
+    <string name="continue_reading">Продолжить чтение: Документы</string>
+    <string name="resume_your_reading_where_you_left_pf">Продолжите чтение с того места, где остановились</string>
+    <string name="you_have_a_new_ppt_file">✨ У вас новый файл PowerPoint!</string>
+    <string name="all_files">Все файлы</string>
+    <string name="bookmark">Закладка</string>
+    <string name="tool">Инструмент</string>
+</resources>

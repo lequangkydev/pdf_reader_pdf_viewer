@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">지금 열기</string>
+    <string name="pdf">PDF</string>
+    <string name="home">홈</string>
+    <string name="document">문서</string>
+    <string name="recent">최근</string>
+    <string name="you_have_a_new_pdf_file">✨ 새 PDF 파일이 있습니다!</string>
+    <string name="you_have_a_new_word_file">✨ 새 Word 파일이 있습니다!</string>
+    <string name="you_have_a_new_excel_file">✨ 새 Excel 파일이 있습니다!</string>
+    <string name="you_have_a_new_office_file">✨ 새 Office 파일이 있습니다!</string>
+    <string name="you_have_a_new_file">✨ 새 파일이 있습니다!</string>
+    <string name="unfinished_file_detected">⚠️️ 미완성 파일이 감지되었습니다!</string>
+    <string name="an_unread_file_need_your_attention">읽지 않은 파일이 주의를 필요로 합니다</string>
+    <string name="you_have_a_new_photo">✨ 새 사진이 있습니다!</string>
+    <string name="unread_document_file">⚠️️읽지 않은 문서 파일</string>
+    <string name="unfinished_reading_file">문서 작성을 마무리하는 것을 잊지 마세요! 계속 읽으려면 탭하세요.</string>
+    <string name="continue_reading">계속 읽기: 문서</string>
+    <string name="resume_your_reading_where_you_left_pf">중단한 부분부터 다시 읽으세요</string>
+    <string name="you_have_a_new_ppt_file">✨ 새 PowerPoint 파일이 있습니다!</string>
+    <string name="all_files">모든 파일</string>
+    <string name="bookmark">북마크</string>
+    <string name="tool">도구</string>
+</resources>

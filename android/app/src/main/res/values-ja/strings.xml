@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">今すぐ開く</string>
+    <string name="pdf">PDF</string>
+    <string name="home">ホーム</string>
+    <string name="document">ドキュメント</string>
+    <string name="recent">最近</string>
+    <string name="you_have_a_new_pdf_file">✨ 新しいPDFファイルがあります！</string>
+    <string name="you_have_a_new_word_file">✨ 新しいWordファイルがあります！</string>
+    <string name="you_have_a_new_excel_file">✨ 新しいExcelファイルがあります！</string>
+    <string name="you_have_a_new_office_file">✨ 新しいOfficeファイルがあります！</string>
+    <string name="you_have_a_new_file">✨ 新しいファイルがあります！</string>
+    <string name="unfinished_file_detected">⚠️️ 未完成のファイルが検出されました！</string>
+    <string name="an_unread_file_need_your_attention">未読のファイルが注意を必要としています</string>
+    <string name="you_have_a_new_photo">✨ 新しい写真があります！</string>
+    <string name="unread_document_file">⚠️️未読のドキュメントファイル</string>
+    <string name="unfinished_reading_file">ドキュメントの仕上げを忘れずに！続きはタップして読んでください。</string>
+    <string name="continue_reading">続きを読む：ドキュメント</string>
+    <string name="resume_your_reading_where_you_left_pf">中断したところから読み続けてください</string>
+    <string name="you_have_a_new_ppt_file">✨ 新しいPowerPointファイルがあります！</string>
+    <string name="all_files">すべてのファイル</string>
+    <string name="bookmark">ブックマーク</string>
+    <string name="tool">ツール</string>
+</resources>

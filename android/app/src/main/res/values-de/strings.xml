@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">Jetzt öffnen</string>
+    <string name="pdf">PDF</string>
+    <string name="home">Startseite</string>
+    <string name="document">Dokument</string>
+    <string name="recent">Kürzlich</string>
+    <string name="you_have_a_new_pdf_file">✨ Sie haben eine neue PDF-Datei!</string>
+    <string name="you_have_a_new_word_file">✨ Sie haben eine neue Word-Datei!</string>
+    <string name="you_have_a_new_excel_file">✨ Sie haben eine neue Excel-Datei!</string>
+    <string name="you_have_a_new_office_file">✨ Sie haben eine neue Office-Datei!</string>
+    <string name="you_have_a_new_file">✨ Sie haben eine neue Datei!</string>
+    <string name="unfinished_file_detected">⚠️️ Unvollständige Datei erkannt!</string>
+    <string name="an_unread_file_need_your_attention">Eine ungelesene Datei benötigt Ihre Aufmerksamkeit</string>
+    <string name="you_have_a_new_photo">✨ Sie haben ein neues Foto!</string>
+    <string name="unread_document_file">⚠️️Ungelesene Dokumentdatei</string>
+    <string name="unfinished_reading_file">Vergiss nicht, dein Dokument fertigzustellen! Tippe, um weiterzulesen.</string>
+    <string name="continue_reading">Weiterlesen: Dokumente</string>
+    <string name="resume_your_reading_where_you_left_pf">" Setze deine Lektüre dort fort, wo du aufgehört hast"</string>
+    <string name="you_have_a_new_ppt_file">✨ Du hast eine neue PowerPoint-Datei!</string>
+    <string name="all_files">Alle Dateien</string>
+    <string name="bookmark">Lesezeichen</string>
+    <string name="tool">Werkzeug</string>
+</resources>

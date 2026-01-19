@@ -1,0 +1,28 @@
+flavors:
+  dev:
+    app:
+      name: "PDF Reader - PDF Viewer"
+    android:
+      applicationId: "com.pdf365g.dev"
+      icon: "assets/images/logo/rounded_logo.png"
+      firebase:
+        config: "android/app/src/dev/google-services.json"
+    ios:
+      bundleId: "com.all.view.document.dev"
+      icon: "assets/images/logo/logo.png"
+      firebase:
+        config: "ios/Runner/dev/GoogleService-Info.plist"
+
+  prod:
+    app:
+      name: "PDF Reader - PDF Viewer"
+    android:
+      applicationId: "com.office.document.file.viewer"
+      icon: "assets/images/logo/rounded_logo.png"
+      firebase:
+        config: "android/app/src/prod/google-services.json"
+    ios:
+      bundleId: "com.vtn.example.prod"
+      icon: "assets/images/logo/logo.png"
+      # firebase:
+      #   config: "ios/Runner/prod/GoogleService-Info.plist"

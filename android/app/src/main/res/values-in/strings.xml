@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">Buka sekarang</string>
+    <string name="pdf">PDF</string>
+    <string name="home">Beranda</string>
+    <string name="document">Dokumen</string>
+    <string name="recent">Terbaru</string>
+    <string name="you_have_a_new_pdf_file">✨ Anda memiliki file PDF baru!</string>
+    <string name="you_have_a_new_word_file">✨ Anda memiliki file Word baru!</string>
+    <string name="you_have_a_new_excel_file">✨ Anda memiliki file Excel baru!</string>
+    <string name="you_have_a_new_office_file">✨ Anda memiliki file Office baru!</string>
+    <string name="you_have_a_new_file">✨ Anda memiliki file baru!</string>
+    <string name="unfinished_file_detected">⚠️️ File yang belum selesai terdeteksi!</string>
+    <string name="an_unread_file_need_your_attention">File yang belum dibaca memerlukan perhatian Anda</string>
+    <string name="you_have_a_new_photo">✨ Anda memiliki foto baru!</string>
+    <string name="unread_document_file">⚠️️ File Dokumen yang Belum Dibaca</string>
+    <string name="unfinished_reading_file">️Jangan lupa menyelesaikan dokumen Anda! Ketuk untuk melanjutkan membaca.</string>
+    <string name="continue_reading">Lanjutkan Membaca: Dokumen</string>
+    <string name="resume_your_reading_where_you_left_pf">Lanjutkan membaca dari tempat terakhir Anda berhenti</string>
+    <string name="you_have_a_new_ppt_file">✨ Anda memiliki file PowerPoint baru!</string>
+    <string name="all_files">Semua File</string>
+    <string name="bookmark">Penanda</string>
+    <string name="tool">Alat</string>
+</resources>

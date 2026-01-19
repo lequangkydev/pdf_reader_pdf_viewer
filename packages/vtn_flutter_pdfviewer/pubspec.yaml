@@ -1,0 +1,50 @@
+name: vtn_flutter_pdfviewer
+
+environment:
+  sdk: '>=2.17.0 <4.0.0'
+  flutter: ">=1.20.0"
+
+flutter:
+
+
+  plugin:
+    platforms:
+      android:
+        package: com.vtn.flutter.pdfviewer
+        pluginClass: VTNFlutterPdfViewerPlugin
+      ios:
+        pluginClass: VTNFlutterPdfViewerPlugin
+
+  assets:
+    - assets/
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: assets/fonts/RobotoMono-Regular.ttf
+
+dependencies:
+  flutter:
+    sdk: flutter
+  vector_math: ^2.1.0
+  async: ^2.5.0
+  http: ^1.0.0
+  uuid: ^4.1.0
+  device_info_plus: ^9.0.2
+  intl: '>=0.18.1 <0.20.0'
+
+  vtn_pdfviewer_platform_interface:
+    path: ../vtn_flutter_pdfviewer_platform_interface
+
+  vtn_flutter_core:
+    path: ../vtn_flutter_core
+
+  vtn_flutter_pdf:
+    path: ../vtn_flutter_pdf
+      
+
+
+  url_launcher: ^6.1.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter

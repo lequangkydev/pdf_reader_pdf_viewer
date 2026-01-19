@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">Şimdi aç</string>
+    <string name="pdf">PDF</string>
+    <string name="home">Ana Sayfa</string>
+    <string name="document">Belge</string>
+    <string name="recent">Son</string>
+    <string name="you_have_a_new_pdf_file">✨ Yeni bir PDF dosyanız var!</string>
+    <string name="you_have_a_new_word_file">✨ Yeni bir Word dosyanız var!</string>
+    <string name="you_have_a_new_excel_file">✨ Yeni bir Excel dosyanız var!</string>
+    <string name="you_have_a_new_office_file">✨ Yeni bir Office dosyanız var!</string>
+    <string name="you_have_a_new_file">✨ Yeni bir dosyanız var!</string>
+    <string name="unfinished_file_detected">⚠️️ Tamamlanmamış dosya tespit edildi!</string>
+    <string name="an_unread_file_need_your_attention">Okunmamış bir dosya dikkatinizi gerektiriyor</string>
+    <string name="you_have_a_new_photo">✨ Yeni bir fotoğrafınız var!</string>
+    <string name="unread_document_file">⚠️️Okunmamış Belge Dosyası</string>
+    <string name="unfinished_reading_file">Belgenizi tamamlamayı unutmayın! Okumaya devam etmek için dokunun.</string>
+    <string name="continue_reading">Okumaya Devam Et: Belgeler</string>
+    <string name="resume_your_reading_where_you_left_pf">Kaldığınız yerden okumaya devam edin</string>
+    <string name="you_have_a_new_ppt_file">✨ Yeni bir PowerPoint dosyanız var!</string>
+    <string name="all_files">Tüm Dosyalar</string>
+    <string name="bookmark">Yer İmi</string>
+    <string name="tool">Araç</string>
+</resources>

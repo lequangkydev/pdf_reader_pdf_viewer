@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">立即打开</string>
+    <string name="pdf">PDF</string>
+    <string name="home">首页</string>
+    <string name="document">文档</string>
+    <string name="recent">最近</string>
+    <string name="you_have_a_new_pdf_file">✨ 您有一个新的PDF文件！</string>
+    <string name="you_have_a_new_word_file">✨ 您有一个新的Word文件！</string>
+    <string name="you_have_a_new_excel_file">✨ 您有一个新的Excel文件！</string>
+    <string name="you_have_a_new_office_file">✨ 您有一个新的Office文件！</string>
+    <string name="you_have_a_new_file">✨ 您有一个新的文件！</string>
+    <string name="unfinished_file_detected">⚠️️ 检测到未完成的文件！</string>
+    <string name="an_unread_file_need_your_attention">一个未读的文件需要您的注意</string>
+    <string name="you_have_a_new_photo">✨ 你有一张新照片！</string>
+    <string name="unread_document_file">⚠️️未讀文件檔案</string>
+    <string name="unfinished_reading_file">️别忘了完成你的文档！点击继续阅读。</string>
+    <string name="continue_reading">继续阅读：文档</string>
+    <string name="resume_your_reading_where_you_left_pf">从上次中断的地方继续阅读</string>
+    <string name="you_have_a_new_ppt_file">Chinese (Simplified) (zh): ✨ 你有一个新的 PowerPoint 文件！</string>
+    <string name="all_files">所有文件</string>
+    <string name="bookmark">书签</string>
+    <string name="tool">工具</string>
+</resources>

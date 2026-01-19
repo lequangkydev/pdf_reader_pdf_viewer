@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <rect x="16.2627" y="3.5" width="5.48224" height="17.2728" rx="0.5"
+        transform="rotate(43.5475 16.2627 3.5)" stroke="#595959" stroke-width="1.5" />
+    <path opacity="0.5" d="M21.0352 18.5L21.0352 20.5L10.0352 20.5L12.6369 18.5L21.0352 18.5Z"
+        fill="#595959" />
+    <path
+        d="M7.03516 21.5L4.03516 18.5L1.46193 21.0732C1.30444 21.2307 1.41598 21.5 1.63871 21.5H7.03516Z"
+        fill="#595959" />
+</svg>

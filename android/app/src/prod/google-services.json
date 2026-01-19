@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "838099924280",
+    "project_id": "app365g-document-viewer",
+    "storage_bucket": "app365g-document-viewer.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:838099924280:android:8607303d58af24cabbbdcd",
+        "android_client_info": {
+          "package_name": "com.office.document.file.viewer"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBmNsaz9OZa7be-AaF2oYcJTOVRQeqfAUU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

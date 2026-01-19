@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "669234358178",
+    "project_id": "pdf365g",
+    "storage_bucket": "pdf365g.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:669234358178:android:a6d06e27a14ea745d174fb",
+        "android_client_info": {
+          "package_name": "com.pdf365g.dev"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHxHeWOGwt7el2FNBTmGN-GOJwZ_ZTAE4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

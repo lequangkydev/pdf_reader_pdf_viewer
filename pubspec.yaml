@@ -1,0 +1,204 @@
+name: flutter_base
+description: A new Flutter project.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.5 <4.0.0'
+
+dependencies:
+  # BASE
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.19.0
+
+  # AAA
+  auto_route: ^9.2.2
+  lottie: ^3.1.2
+  # BBB
+  # CCC
+  # DDD
+  device_info_plus:
+  dropdown_button2: ^2.3.9
+
+  # EEE
+  flutter_ads:
+    git:
+      url: https://tinhvv_vtn:ATBBvpGJEjJVKKzFyhSLTVxAwPueD7D28D74@bitbucket.org/innofyapp/flutter_ads.git
+      ref: app/365_v3.1
+  # FFF
+  firebase_core: ^3.3.0
+  firebase_remote_config: ^5.0.4
+  firebase_analytics: ^11.2.1
+  firebase_crashlytics: ^4.0.4
+  flutter_bloc: ^8.1.4
+  flutter_svg: ^2.0.10+1
+  flutter_dotenv: ^5.1.0
+  freezed_annotation: ^2.4.1
+  flutter_screenutil: ^5.9.0
+  flutter_easyloading: ^3.0.5
+  flutter_iap:
+    git:
+      url: https://tinhvv_vtn:ATBBvpGJEjJVKKzFyhSLTVxAwPueD7D28D74@bitbucket.org/innofyapp/flutter_iap.git
+      ref: version/1.1.0
+  # GGG
+  get_it: ^7.6.7
+
+  # HHH
+  hydrated_bloc: ^9.1.4
+
+  # III
+  injectable: ^2.3.2
+  in_app_review: ^2.0.8
+  iabtcf_consent_info: ^3.4.0
+  app_tracking_transparency: ^2.0.6
+  # JJJ
+  json_annotation: ^4.8.1
+  # KKK
+
+  # LLL
+  logger: ^2.0.2+1
+  local_hero: ^0.3.0
+
+  # MMM
+  # NNN
+  # OOO
+
+
+  # PPP
+  package_info_plus: ^8.0.0
+  path_provider: ^2.1.2
+  permission_handler: ^11.3.0
+  photo_manager: ^3.6.4
+  # QQQ
+  quick_actions: ^1.1.0
+  # RRR
+  # SSS
+  shared_preferences: ^2.2.2
+  share_plus: ^10.0.0
+  shimmer: ^3.0.0
+  # TTT
+  # UUU
+  url_launcher: ^6.2.5
+  upgrader: ^11.2.0
+  flutter_doc_scanner:
+    git:
+      url: https://github.com/minhson3756/flutter_doc_scanner.git
+  printing: ^5.13.3
+  fluttertoast: ^8.2.8
+  reorderable_grid: ^1.0.10
+  # VVV
+  # WWW
+  wheel_slider: ^1.2.1
+  # XXX
+  # YYY
+  # ZZZ
+  flutter_plugin_aihub:
+    path: ./packages/flutter_plugin_aihub_main
+  vtn_flutter_core:
+    path: ./packages/vtn_flutter_core
+  vtn_flutter_pdf:
+    path: ./packages/vtn_flutter_pdf
+  vtn_flutter_pdfviewer:
+    path: ./packages/vtn_flutter_pdfviewer
+  vtn_pdfviewer_platform_interface:
+    path: ./packages/vtn_flutter_pdfviewer_platform_interface
+  receive_sharing_intent:
+    path: ./packages/receive_sharing_intent
+  marquee: ^2.3.0
+  pdf: ^3.11.1
+  file_picker: ^8.1.3
+  flutter_local_notifications: ^18.0.1
+  #  flutter_foreground_task: ^8.17.0
+  collection: ^1.18.0
+  auto_size_text: ^3.0.0
+  path: ^1.9.0
+  flutter_plugin_android_lifecycle: 2.0.24
+  pdfx: 2.6.0
+  firebase_messaging: ^15.2.4
+  avatar_glow: ^3.0.1
+  flutter_lifecycle_detector: ^0.0.8
+  uuid: ^4.5.1
+  gma_mediation_meta: ^1.4.1
+  flutter_widget_from_html: ^0.16.1
+  wechat_assets_picker: ^9.8.0
+  flutter_email_sender: ^8.0.0
+  dotted_border: ^3.1.0
+  hive_ce_flutter: ^2.3.3
+  hive_ce_generator: ^1.9.2
+  flutter_slidable: ^4.0.3
+  image_picker: ^1.2.0
+  image_gallery_saver_plus: ^4.0.1
+
+dependency_overrides:
+  fading_edge_scrollview: ^4.1.1
+  intl: ^0.19.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  freezed: ^2.5.1
+  json_serializable: ^6.7.1
+  build_runner:
+  injectable_generator: ^2.6.1
+  auto_route_generator:
+  flutter_lints: ^5.0.0
+  flutter_gen_runner: ^5.4.0
+  # Flavor
+  flutter_flavorizr: ^2.4.1
+  drag_and_drop_lists: ^0.4.1
+
+flutter:
+  generate: true
+  uses-material-design: true
+
+  assets:
+    - assets/lotties/
+    - assets/icons/
+    - assets/icons/rates/
+    - assets/icons/sortBy/
+    - assets/icons/tabbar/
+    - assets/icons/setting/
+    - assets/images/
+    - assets/images/logo/
+    - assets/images/onboarding/
+    - assets/images/languages/
+    - assets/images/app_default/
+    - assets/images/frame/
+    - assets/icons/file/
+    - assets/icons/tools/
+    - assets/files/
+    - assets/icons/bottom_sheet/
+
+  fonts:
+    - family: SFProDisplay
+      fonts:
+        - asset: assets/fonts/SF-Pro-Display/SF-Pro-Display-Ultralight.OTF
+          weight: 200
+        - asset: assets/fonts/SF-Pro-Display/SF-Pro-Display-Regular.OTF
+          weight: 400
+        - asset: assets/fonts/SF-Pro-Display/SF-Pro-Display-Medium.OTF
+          weight: 500
+        - asset: assets/fonts/SF-Pro-Display/SF-Pro-Display-Bold.OTF
+          weight: 700
+
+#generate
+flutter_gen:
+  output: lib/src/gen/ # Optional (default: lib/gen/)
+  line_length: 80 # Optional (default: 80)
+
+  integrations:
+    flutter_svg: true
+    lottie: true
+
+  colors:
+    inputs:
+      - assets/color/colors.xml
+    outputs:
+      class_name: MyColors
+
+  assets:
+    outputs:
+      class_name: Assets

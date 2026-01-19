@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">Open now</string>
+    <string name="pdf">PDF</string>
+    <string name="home">Home</string>
+    <string name="document">Document</string>
+    <string name="recent">Recent</string>
+    <string name="you_have_a_new_pdf_file">✨ You have a new PDF file!</string>
+    <string name="you_have_a_new_word_file">✨ You have a new Word file!</string>
+    <string name="you_have_a_new_excel_file">✨ You have a new Excel file!</string>
+    <string name="you_have_a_new_office_file">✨ You have a new Office file!</string>
+    <string name="you_have_a_new_file">✨ You have a new file!</string>
+    <string name="unfinished_file_detected">⚠️️ Unfinished file detected!</string>
+    <string name="an_unread_file_need_your_attention">An unread file need your attention</string>
+    <string name="you_have_a_new_photo">✨ You have a new photo!</string>
+    <string name="unread_document_file">⚠️️Unread Document File</string>
+    <string name="unfinished_reading_file">️Don’t forget to finish your document! Tap to continue reading.</string>
+    <string name="continue_reading">Continue Reading: Documents</string>
+    <string name="resume_your_reading_where_you_left_pf">Resume your reading where you left off</string>
+    <string name="you_have_a_new_ppt_file">✨ You have a new PowerPoint file!</string>
+    <string name="all_files">All Files</string>
+    <string name="bookmark">Bookmark</string>
+    <string name="tool">Tool</string>
+</resources>

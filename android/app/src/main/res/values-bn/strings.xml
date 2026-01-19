@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="open_now">খুলুন এখন</string>
+    <string name="pdf">PDF</string>
+    <string name="home">হোম</string>
+    <string name="document">ডকুমেন্ট</string>
+    <string name="recent">সাম্প্রতিক</string>
+    <string name="you_have_a_new_pdf_file">✨ আপনার একটি নতুন PDF ফাইল আছে!</string>
+    <string name="you_have_a_new_word_file">✨ আপনার একটি নতুন Word ফাইল আছে!</string>
+    <string name="you_have_a_new_excel_file">✨ আপনার একটি নতুন Excel ফাইল আছে!</string>
+    <string name="you_have_a_new_office_file">✨ আপনার একটি নতুন Office ফাইল আছে!</string>
+    <string name="you_have_a_new_file">✨ আপনার একটি নতুন ফাইল আছে!</string>
+    <string name="unfinished_file_detected">⚠️️ অসম্পূর্ণ ফাইল সনাক্ত হয়েছে!</string>
+    <string name="an_unread_file_need_your_attention">একটি অপঠিত ফাইল আপনার মনোযোগ প্রয়োজন</string>
+    <string name="you_have_a_new_photo">✨ আপনার একটি নতুন ছবি আছে!</string>
+    <string name="unread_document_file">⚠️️অপঠিত নথি ফাইল</string>
+    <string name="unfinished_reading_file">️আপনার ডকুমেন্ট শেষ করতে ভুলবেন না! পড়া চালিয়ে যেতে আলতো চাপুন।</string>
+    <string name="continue_reading">পড়া চালিয়ে যান: নথিপত্র</string>
+    <string name="resume_your_reading_where_you_left_pf">আপনি যেখানে পড়া বন্ধ করেছিলেন, সেখান থেকে আবার শুরু করুন</string>
+    <string name="you_have_a_new_ppt_file">: ✨ আপনার একটি নতুন PowerPoint ফাইল আছে!</string>
+    <string name="all_files">সব ফাইল</string>
+    <string name="bookmark">বুকমার্ক</string>
+    <string name="tool">টুল</string>
+</resources>
