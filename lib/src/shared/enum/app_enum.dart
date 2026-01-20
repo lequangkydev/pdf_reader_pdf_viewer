@@ -23,17 +23,6 @@ enum TabBarType {
   excel,
   ppt;
 
-  AssetGenImage get backgroundImage {
-    final assets = switch (this) {
-      TabBarType.all => Assets.images.frame.all,
-      TabBarType.pdf => Assets.images.frame.pdf,
-      TabBarType.word => Assets.images.frame.doc,
-      TabBarType.excel => Assets.images.frame.excel,
-      TabBarType.ppt => Assets.images.frame.ppt,
-    };
-    return assets;
-  }
-
   TextStyle get valueStyle {
     switch (this) {
       case TabBarType.word:
