@@ -242,6 +242,8 @@ class _SplashScreenState extends State<SplashScreen>
   }
 
   Future<void> setInitScreen() async {
+    context.replaceRoute(const ShellRoute());
+    return;
     final firstOpen = SharedPreferencesManager.instance.isFirstUseApp();
     if (widget.isReload) {
       if (widget.file != null && widget.type != null) {
