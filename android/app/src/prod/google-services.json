@@ -23,6 +23,25 @@
           "other_platform_oauth_client": []
         }
       }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:620212369461:android:f48cbc07443c545ce0597c",
+        "android_client_info": {
+          "package_name": "com.pdf.reader.viewer.scanner.dreamsky"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8X4V8ppblF_PFASb8znycmp6dliNI3c4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
     }
   ],
   "configuration_version": "1"
