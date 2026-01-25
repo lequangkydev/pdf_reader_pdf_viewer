@@ -107,7 +107,6 @@ class _CommonTabBarState extends State<CommonTabBar> {
                         mainAxisSize: MainAxisSize.min,
                         children: [
                           const Expanded(child: SearchFile()),
-                          12.vSpace,
                           ValueListenableBuilder<int>(
                             valueListenable: selectedTabIndexNotifier,
                             builder: (context, selectedIndex, _) {
